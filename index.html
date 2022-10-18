@@ -21,23 +21,23 @@
     <header>
       <div class="container nav-wrap">
         <nav class="site-nav">
-          <a class="logo" href="/index.html"><span>Web</span>Studio</a>
+          <a class="logo time-animation" href="/index.html"><span>Web</span>Studio</a>
           <ul class="site-nav">
             <li class="site-nav-li">
-              <a class="site-nav-link current" href="">Студія</a>
+              <a class="site-nav-link time-animation current" href="">Студія</a>
             </li>
             <li class="site-nav-li">
-              <a class="site-nav-link" href="./portfolio.html">Портфоліо</a>
+              <a class="site-nav-link time-animation" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="site-nav-li">
-              <a class="site-nav-link" href="#">Контакти</a>
+              <a class="site-nav-link time-animation" href="#">Контакти</a>
             </li>
           </ul>
         </nav>
 
         <ul class="cotnact-nav site-nav">
           <li class="site-nav-li">
-            <a class="cotnact-nav-link" href="mailto:info@devstudio.com">
+            <a class="cotnact-nav-link time-animation" href="mailto:info@devstudio.com">
               <svg class="cotnact-nav-svg">
                 <use href="./images/symbol-defs.svg#icon-envelope"></use>
               </svg>
@@ -45,7 +45,7 @@
             </a>
           </li>
           <li class="site-nav-li">
-            <a class="cotnact-nav-link" href="tel:+380961111111">
+            <a class="cotnact-nav-link time-animation" href="tel:+380961111111">
               <svg class="cotnact-nav-svg phone">
                 <use href="./images/symbol-defs.svg#icon-Vector"></use>
               </svg>
@@ -59,7 +59,18 @@
       <section class="section hero">
         <div class="container">
           <h1 class="section-title-hero">Ефективні рішення для вашого бізнесу</h1>
-          <button class="hero-button" type="button">Замовити послугу</button>
+          <button data-modal-open class="hero-button time-animation" type="button">
+            Замовити послугу
+          </button>
+        </div>
+        <div class="backdrop is-hidden time-animation" data-modal>
+          <div class="modal">
+            <button data-modal-close class="close-modal">
+              <svg class="modal-svg-close">
+                <use href="./images/symbol-defs.svg#icon-close"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </section>
       <section class="section">
@@ -117,14 +128,17 @@
         <div class="container">
           <h2 class="section-work-title">Чим ми займаємося</h2>
           <ul class="works-list">
-            <li>
+            <li class="works-list-li">
               <img width="370" src="./images/product1.jpg" alt="людина працюе за компьютером" />
+              <p class="worls-list-li-p">Десктопні додатки</p>
             </li>
-            <li>
+            <li class="works-list-li">
               <img width="370" src="./images/product2.jpg" alt="людина працюе за ноутбуком" />
+              <p class="worls-list-li-p">Мобільні додатки</p>
             </li>
-            <li>
+            <li class="works-list-li">
               <img width="370" src="./images/product3.jpg" alt="людина тримае планшет" />
+              <p class="worls-list-li-p">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
@@ -140,29 +154,29 @@
                 <p class="team-p" lang="en">Product Designer</p>
                 <ul class="wrap-team-svg">
                   <li class="li-team-svg">
-                    <a href="">
+                    <a href="" class="time-animation">
                       <svg class="team-svg">
                         <use href="./images/symbol-defs.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="li-team-svg">
-                    <a href=""
-                      ><svg class="team-svg">
+                    <a href="" class="time-animation">
+                      <svg class="team-svg">
                         <use href="./images/symbol-defs.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="li-team-svg">
-                    <a href=""
-                      ><svg class="team-svg">
+                    <a href="" class="time-animation">
+                      <svg class="team-svg">
                         <use href="./images/symbol-defs.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="li-team-svg">
-                    <a href=""
-                      ><svg class="team-svg">
+                    <a href="" class="time-animation">
+                      <svg class="team-svg">
                         <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -177,29 +191,29 @@
                 <p class="team-p" lang="en">Frontend Developer</p>
                 <ul class="wrap-team-svg">
                   <li class="li-team-svg">
-                    <a href="">
+                    <a href="" class="time-animation">
                       <svg class="team-svg">
                         <use href="./images/symbol-defs.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="li-team-svg">
-                    <a href=""
-                      ><svg class="team-svg">
+                    <a href="" class="time-animation">
+                      <svg class="team-svg">
                         <use href="./images/symbol-defs.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="li-team-svg">
-                    <a href=""
-                      ><svg class="team-svg">
+                    <a href="" class="time-animation">
+                      <svg class="team-svg">
                         <use href="./images/symbol-defs.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="li-team-svg">
-                    <a href=""
-                      ><svg class="team-svg">
+                    <a href="" class="time-animation">
+                      <svg class="team-svg">
                         <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -214,29 +228,29 @@
                 <p class="team-p" lang="en">Marketing</p>
                 <ul class="wrap-team-svg">
                   <li class="li-team-svg">
-                    <a href="">
+                    <a href="" class="time-animation">
                       <svg class="team-svg">
                         <use href="./images/symbol-defs.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="li-team-svg">
-                    <a href=""
-                      ><svg class="team-svg">
+                    <a href="" class="time-animation">
+                      <svg class="team-svg">
                         <use href="./images/symbol-defs.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="li-team-svg">
-                    <a href=""
-                      ><svg class="team-svg">
+                    <a href="" class="time-animation">
+                      <svg class="team-svg">
                         <use href="./images/symbol-defs.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="li-team-svg">
-                    <a href=""
-                      ><svg class="team-svg">
+                    <a href="" class="time-animation">
+                      <svg class="team-svg">
                         <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -251,29 +265,29 @@
                 <p class="team-p" lang="en">UI Designer</p>
                 <ul class="wrap-team-svg">
                   <li class="li-team-svg">
-                    <a href="">
+                    <a href="" class="time-animation">
                       <svg class="team-svg">
                         <use href="./images/symbol-defs.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="li-team-svg">
-                    <a href=""
-                      ><svg class="team-svg">
+                    <a href="" class="time-animation">
+                      <svg class="team-svg">
                         <use href="./images/symbol-defs.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="li-team-svg">
-                    <a href=""
-                      ><svg class="team-svg">
+                    <a href="" class="time-animation">
+                      <svg class="team-svg">
                         <use href="./images/symbol-defs.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="li-team-svg">
-                    <a href=""
-                      ><svg class="team-svg">
+                    <a href="" class="time-animation">
+                      <svg class="team-svg">
                         <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -289,42 +303,42 @@
           <h2 class="customers-title section-title-team">Постійні клієнти</h2>
           <ul class="customers-ul">
             <li class="customers-li">
-              <a href="">
+              <a href="" class="time-animation">
                 <svg class="customers-svg">
                   <use href="./images/symbol-defs.svg#icon-brend-1"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-li">
-              <a href="">
+              <a href="" class="time-animation">
                 <svg class="customers-svg">
                   <use href="./images/symbol-defs.svg#icon-brend-2"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-li">
-              <a href="">
+              <a href="" class="time-animation">
                 <svg class="customers-svg">
                   <use href="./images/symbol-defs.svg#icon-brend-3"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-li">
-              <a href="">
+              <a href="" class="time-animation">
                 <svg class="customers-svg">
                   <use href="./images/symbol-defs.svg#icon-brend-4"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-li">
-              <a href="">
+              <a href="" class="time-animation">
                 <svg class="customers-svg">
                   <use href="./images/symbol-defs.svg#icon-brend-5"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-li">
-              <a href="">
+              <a href="" class="time-animation">
                 <svg class="customers-svg">
                   <use href="./images/symbol-defs.svg#icon-brend-6"></use>
                 </svg>
@@ -337,12 +351,12 @@
     <footer class="footer">
       <div class="container footer-flex-div">
         <div class="wrap-address-footer">
-          <a class="logo footer-logo" href="./index.html"><span>Web</span>Studio</a>
+          <a class="logo footer-logo time-animation" href="./index.html"><span>Web</span>Studio</a>
           <address>
             <ul class="address">
               <li class="address-list">
                 <a
-                  class="address-link"
+                  class="address-link time-animation"
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
@@ -350,10 +364,14 @@
                 >
               </li>
               <li class="address-list">
-                <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="address-link time-animation" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
               <li class="address-list">
-                <a class="address-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="address-link time-animation" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
               </li>
             </ul>
           </address>
@@ -362,29 +380,29 @@
           <p>приєднуйтесь</p>
           <ul class="footer-social">
             <li class="footer-social-li">
-              <a href="">
+              <a href="" class="time-animation">
                 <svg class="footer-social-svg">
                   <use href="./images/symbol-defs.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-social-li">
-              <a href=""
-                ><svg class="footer-social-svg">
+              <a href="" class="time-animation">
+                <svg class="footer-social-svg">
                   <use href="./images/symbol-defs.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-social-li">
-              <a href=""
-                ><svg class="footer-social-svg">
+              <a href="" class="time-animation">
+                <svg class="footer-social-svg">
                   <use href="./images/symbol-defs.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-social-li">
-              <a href=""
-                ><svg class="footer-social-svg">
+              <a href="" class="time-animation">
+                <svg class="footer-social-svg">
                   <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -393,5 +411,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
